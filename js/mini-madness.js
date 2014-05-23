@@ -1,5 +1,5 @@
 /**
- * Playing Asteroids while learning JavaScript object model.
+ * Mini-Madness.
  */
 /** 
  * Shim layer, polyfill, for requestAnimationFrame with setTimeout fallback.
@@ -302,9 +302,9 @@ Player.prototype = {
 }
 
 /**
- * Asteroids, the Game
+ * Mini-Madness, the Game
  */
-window.Asteroids = (function () {
+window.Madness = (function () {
     var canvas, ct, ship, lastGameTick;
 
     var trackCount = {
@@ -394,6 +394,7 @@ window.Asteroids = (function () {
         sec = Math.round(sec);
         var tenth = Math.round((millis / 100) % 9);
 
+
         ct.save();
         ct.strokeStyle = "#00FF00";
         ct.lineWidth = 10;
@@ -438,7 +439,7 @@ window.Asteroids = (function () {
             ct.fillText('Time: ' + trackCount.finish_time, 600, 140);
 
             ct.restore();
-        }
+        } 
     }
 
     return {
@@ -457,8 +458,8 @@ $(function () {
         window.location.reload();
     });
 
-    Asteroids.init('canvas1');
-    Asteroids.gameLoop();
+    Madness.init('canvas1');
+    Madness.gameLoop();
 
     console.log('Ready to play.');
 

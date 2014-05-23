@@ -1,4 +1,4 @@
-Mini-Madness, simple 2d canvas car-racing
+Mini-Madness
 =====================================
 
 About
@@ -50,6 +50,5 @@ v1 (latest)
 
 
 <pre>
- .   
-..:  Copyright 2012-2014 by Mikael Roos (me@mikaelroos.se)
+Copyright 2014, Joakim Sehlstedt
 </pre>
