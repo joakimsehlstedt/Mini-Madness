@@ -4,7 +4,9 @@ Mini-Madness
 About
 -------------------------------------
 
-Mini-Madness is suitable to run on any JavaScript/HTML5 compatible platform. The game is presented to the user in a very straight forward and simple form, without any extra settings or menu choices. Mini-Madness is a single player 2d car-racing game. It's got one track, one car and three laps. The player controls the car with arrow-keys.
+Mini-Madness is a single player 2d car-racing game. It's got one track, one car and three laps. The player controls the car with arrow-keys.  
+
+Mini-Madness is suitable to run on any JavaScript/HTML5 compatible platform. The game is presented to the user in a very straight forward and simple form, without any extra settings or menu choices. 
 
 License
 -------------------------------------
